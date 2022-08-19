@@ -1,11 +1,11 @@
-// When the user scrolls the page, execute myFunction
+// When the user scrolls the page, execute the watchProgress function
 window.onscroll = function() {watchProgress()};
 
 function watchProgress() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     //console.log(winScroll);
 
-    // Altura total de la página web - Altura del Viewpòrt Cliente
+    // Total Height Webpage - Client Viewport Height
     var scrHeight = document.documentElement.scrollHeight;
     var cliHeight = document.documentElement.clientHeight
     //console.log(scrHeight);
